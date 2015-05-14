@@ -1,6 +1,8 @@
 package mx.example.ruben.stir.app.ui.activities;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,50 +12,43 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 
 import mx.example.ruben.stir.R;
 
+public class SplashActivity extends Activity {
 
-public class SplashActivity extends ActionBarActivity {
+    Intent i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Fresco.initialize(this);
         super.onCreate(savedInstanceState);
+        Fresco.initialize(this);
         setContentView(R.layout.activity_splash);
 
-        Thread timerThr = new Thread(){
+        Thread timerThread = new Thread(){
             public void run(){
                 try{
-                    sleep(3000);
-                } catch (InterruptedException e){
+                    sleep(2000);
+                }catch(InterruptedException e){
                     e.printStackTrace();
-                } finally {
-                    Intent newInt = new Intent("mx.example.ruben.stir.MAINACTIVITY");
-                    startActivity(newInt);
+                }finally{
+
+                    SharedPreferences sharedPref = getSharedPreferences("fb_user_prefs", MODE_PRIVATE);
+                    boolean isLogin = sharedPref.getBoolean("is_login", false);
+
+                    if (isLogin){
+                        i = new Intent("mx.example.ruben.stir.MAINACTIVITY");
+                    } else {
+                        i = new Intent("mx.example.ruben.stir.FACEACTIVITY");
+                    }
+                    startActivity(i);
                 }
             }
         };
-        timerThr.start();
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //rgetMenuInflater().inflate(R.menu.menu_splash, menu);
-        return true;
+        timerThread.start();
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
+    protected void onPause() {
+        super.onPause();
+        finish();
     }
+
 }
