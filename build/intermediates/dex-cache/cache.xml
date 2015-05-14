@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-c885183b6a7ced9d9573bd80ee44110a27ab7cc2.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f152d66d206927ca4981bb0e936f3b03f07a8022">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-d4b9ce5b3036c0bff86538ec52c7bab94eccddd7.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-9e2cf42c0abc8ee341b11d9a99f12ff261f4c394.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-15b24c6e0f3540c5e0f8cf5c94adc40006d2c5b8.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.mobsandgeeks/android-saripaar/1.0.3/c24cfd9331b6d5a2ee15dccb60774c7cc5debd99/android-saripaar-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/android-saripaar-1.0.3-6106d3aab68c4dd9dba5e0a5d8b7546b906a7116.jar" />
+    </item>
+    <item
+        jar="/Users/irata/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-367a8e8437139b89a7e6c60e7566e3b90ffc63c9.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-cd2787af489490f68c63d14466c2c9c2a67fd842.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/3.0.1/7957f8ccca2003e4b910a633941263c2136a68c2/timber-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7957f8ccca2003e4b910a633941263c2136a68c2">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/timber-3.0.1-be9b189928ee2f5d944ebacfa26af24de0384b9e.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-afb9869798adb1f41ae2218dd825c5ac32eee8f5.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/library-2.4.0-937be6e251b04b0591f2c7588f438307c81f8036.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3f4037a75280d77e8e339e95938e35ba8b47e3">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-34534e32da67ed9f5c088cab898badd28fb736af.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/me.neavo/volley/2014.12.09/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fba1ad83fb68864551a039aa2148f798dd6ec970">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-f41fa4988ea76db358dad778acc6bf74b7bdf8d9.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-71a3f9322ccde0393b8578df35b27824e4cf3403.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-6f2e01f1c2968132dabb5c50b7833f1ebe6dc8b7.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="914cb7e79b8292b2c90ba58c7d213ac3b89f05dd">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-afbd5f8d7d5b084b41c3929e2f9650935f0bba19.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/gson-2.3.1-3e692ae25be097a5c410c2b1bbd4391534e8520c.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-86043da365c0ef3c4110d1d2c713c900d4f003fc.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="90a9afd83c93d7983396e55c80d0f27a89f7aa4c">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-d1a04c8906a7fd5eaa45a36a64686707947af647.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-a0d6aae5553822e623a5048b842fc97364a4fcba.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-43b26c22e021a774c19cc7d7cbe164de6dd51922.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-38dd368008140b128b5a64dc0ddb23519107b414.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/okio-1.0.0-b586d1062751d761c7f92da4e6aea2ec3e232c77.jar" />
+    </item>
+    <item
+        jar="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/exploded-aar/com.foursquare/foursquare-android-oauth/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9dc88a23aaaa0d6b246af1435df4199dbd13ac28">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/classes-86c44b03669a50cd75015d91833746508c652cb9.jar" />
+    </item>
+    <item
+        jar="/Users/irata/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/irata/AndroidStudioProjects/RightNight/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-3a9fc4c1ba758fafddcb2b559d95137df6a5c46d.jar" />
+    </item>
+
+</items>
