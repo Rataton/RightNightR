@@ -39,6 +39,7 @@ public class FaceFragment extends Fragment {
     FacebookCallback<LoginResult> mFacebookCallback;
     Profile infoProfile;
 
+//    Ahora será con Loginmanager
 
     public FaceFragment() {
     }
@@ -54,7 +55,6 @@ public class FaceFragment extends Fragment {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(CONTEXT.getApplicationContext());
         callbackManager = CallbackManager.Factory.create();
-
 
         accessTokenTracker = new AccessTokenTracker() {
             @Override
