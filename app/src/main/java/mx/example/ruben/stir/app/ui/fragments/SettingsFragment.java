@@ -32,8 +32,7 @@ public class SettingsFragment extends Fragment {
     CallbackManager callbackManager;
     LoginButton loginButton;
 
-//    Sube a git
-//    Que subas te digo
+//    Desde el otro git
 
     public SettingsFragment() {}
 
