@@ -11,12 +11,24 @@
 
     </LinearLayout>
 
+    <!--<Button-->
+        <!--android:id="@+id/btn_login"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/txt_login"-->
+        <!--android:paddingLeft="@dimen/padd_txt_btn"-->
+        <!--android:paddingRight="@dimen/padd_txt_btn"-->
+        <!--android:background="@color/com_facebook_blue"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_gravity="center"/>-->
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:paddingRight="@dimen/padd_txt_btn"
+        android:paddingLeft="@dimen/padd_txt_btn"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp" />
 

@@ -39,7 +39,6 @@ public class FaceFragment extends Fragment {
     FacebookCallback<LoginResult> mFacebookCallback;
     Profile infoProfile;
 
-//    Ahora será con Loginmanager
 
     public FaceFragment() {
     }
@@ -109,6 +108,7 @@ public class FaceFragment extends Fragment {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 // App code
+                loginButton.setAlpha(0);
             }
 
             @Override

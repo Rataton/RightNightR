@@ -23,4 +23,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_face">RightNight</string>
     <string name="txt_close">CERRAR SESIÓN</string>
+    <string name="txt_login">Inicia sesión con Facebook</string>
 </resources>
