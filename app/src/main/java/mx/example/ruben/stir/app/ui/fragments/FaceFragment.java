@@ -55,7 +55,6 @@ public class FaceFragment extends Fragment {
         FacebookSdk.sdkInitialize(CONTEXT.getApplicationContext());
         callbackManager = CallbackManager.Factory.create();
 
-
         accessTokenTracker = new AccessTokenTracker() {
             @Override
             protected void onCurrentAccessTokenChanged(
@@ -109,6 +108,7 @@ public class FaceFragment extends Fragment {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 // App code
+                loginButton.setAlpha(0);
             }
 
             @Override
