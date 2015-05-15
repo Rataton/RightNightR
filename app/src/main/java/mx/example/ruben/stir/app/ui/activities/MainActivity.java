@@ -17,6 +17,7 @@ import mx.example.ruben.stir.R;
 import mx.example.ruben.stir.app.ui.fragments.ClubsFragment;
 import mx.example.ruben.stir.app.ui.fragments.MapFragment;
 import mx.example.ruben.stir.app.ui.fragments.NavigationDrawerFragment;
+import mx.example.ruben.stir.app.ui.fragments.SettingsFragment;
 
 
 public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -66,20 +67,23 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
             switch (mCurrentSelectedPositionpPresent) {
                 case 0:
                     fragment = new ClubsFragment();
-                    getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.main_container, fragment)
-                            .commit();
+//                    getSupportFragmentManager().beginTransaction()
+//                            .replace(R.id.main_container, fragment)
+//                            .commit();
                     break;
                 case 1:
                     fragment = new MapFragment();
-                    getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.main_container, fragment)
-                            .commit();
+//                    getSupportFragmentManager().beginTransaction()
+//                            .replace(R.id.main_container, fragment)
+//                            .commit();
                     break;
                 case 2:
-                    //fragment = new CreatorsFragment();
+                    fragment = new SettingsFragment();
                     break;
             }
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.main_container, fragment)
+                    .commit();
         }
     }
 
